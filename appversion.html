@@ -1,0 +1,24 @@
+<html> 
+    <head>
+        <title>
+            java script program
+        </title>
+         <script languague="javascript">
+          function popup()
+           { 
+            var major=parseInt(navigator.appVersion);
+             var minor=parseInt(navigator.appVersion);
+              var agent=navigator.userAgent.toLowerCase();
+               document.write(agent+" "+major);
+                window.alert(agent+" "+major); 
+            }
+             function farewell()
+              { 
+                window.alert("Farewell and thanks for visiting");
+              } 
+        </script>
+     </head> 
+<body onLoad="popup()" onUnload="farewell()">
+    
+</body> 
+</html> 

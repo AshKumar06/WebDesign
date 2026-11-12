@@ -1,0 +1,27 @@
+<html> 
+    <head> 
+        <title>
+             Factorial
+        </title> 
+    </head>
+     <body>
+         <script language="javascript">
+             function fact(n)
+              {
+                 var i,f=1;
+                  for(i=1;i<=n;i++) 
+                  { 
+                    f=f*i; 
+                    document.writeln(f);
+                }
+                 return(f);
+              } 
+              
+            var x,n,f; 
+            x=prompt("Enter the number");
+            f=fact(x); 
+            document.writeln("Factorial of "+x+" is "+f);
+            document.close();
+         </script> 
+         </body>
+        </html> 
